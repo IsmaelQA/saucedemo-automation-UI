@@ -17,3 +17,5 @@
 import './commands'
 import './LoginPage'
 import 'cypress-mochawesome-reporter/register'
+import './carrinhoPage'
+import './checkoutPage'

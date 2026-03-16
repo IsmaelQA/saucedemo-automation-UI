@@ -3,6 +3,7 @@
   "baseUrl": "https://www.saucedemo.com",
   "env": {
     "user": "standard_user",
-    "password": "secret_sauce"
+    "password": "secret_sauce",
+    "passwordInvalida": "secret123"
   }
 }

@@ -6,4 +6,10 @@ describe('Validar Login', () => {
     cy.validarLogin();
   
   });
+
+  it('Login invalido', () => {
+    cy.loginValido(Cypress.env("user"), Cypress.env("passwordInvalida"));
+    cy.validarLoginInvalido();
+  
+  });
 });
